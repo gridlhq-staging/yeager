@@ -1,0 +1,33 @@
+{
+  "name": "@yeager.sh/cli",
+  "version": "0.1.0",
+  "description": "Remote execution for local AI coding agents",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gridlhq/yeager"
+  },
+  "bin": {
+    "yg": "bin/yeager.js"
+  },
+  "optionalDependencies": {
+    "@yeager.sh/darwin-arm64": "0.1.0",
+    "@yeager.sh/darwin-x64": "0.1.0",
+    "@yeager.sh/linux-arm64": "0.1.0",
+    "@yeager.sh/linux-x64": "0.1.0",
+    "@yeager.sh/win32-arm64": "0.1.0",
+    "@yeager.sh/win32-x64": "0.1.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "yeager",
+    "remote-execution",
+    "cloud",
+    "ai",
+    "coding-agent",
+    "build",
+    "test"
+  ]
+}
